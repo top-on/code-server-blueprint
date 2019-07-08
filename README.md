@@ -1,12 +1,12 @@
 # code-server-blueprint
-Blueprint for using code-server for python development.
+Blueprint for using code-server for Python development.
 
 ## Getting started
 
 1. ```docker-compose up```
 2. Open browser at ```http://localhost:8443/```
 
-## Extending this project
+## Extending this bluepeint
 
 You have numerous options to extend this blueprint:
 
@@ -17,3 +17,4 @@ You have numerous options to extend this blueprint:
 
 ## References
 https://github.com/cdr/code-server
+
