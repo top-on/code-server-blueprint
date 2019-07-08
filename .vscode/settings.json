@@ -1,3 +1,4 @@
 {
-    "python.dataScience.sendSelectionToInteractiveWindow": true
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "editor.minimap.enabled": false
 }
