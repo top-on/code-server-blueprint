@@ -15,4 +15,3 @@ COPY requirements.txt /home/coder/
 RUN python3.7 -m pip install --no-cache-dir -r ~/requirements.txt
 
 CMD ["code-server", "--allow-http", "--no-auth"]
-
