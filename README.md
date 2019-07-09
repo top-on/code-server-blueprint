@@ -17,4 +17,3 @@ You have numerous options to extend this blueprint:
 
 ## References
 https://github.com/cdr/code-server
-
