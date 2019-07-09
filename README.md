@@ -3,8 +3,10 @@ Blueprint for using code-server for Python development.
 
 ## Getting started
 
-1. ```docker-compose up ide```
-2. If behind a HTTP-PROXY, use ```docker-compose up ide-proxy```
+1. Start server: 
+    * Natively on Linux: ```docker-compose up ide```
+    * On Linux, behind a HTTP-PROXY: ```docker-compose up ide-proxy```
+    * Natively on Windows: ```docker-compose up ide-win```
 3. Open browser at ```http://localhost:8443/```
 
 ## Extending this bluepeint
@@ -18,4 +20,3 @@ You have numerous options to extend this blueprint:
 
 ## References
 https://github.com/cdr/code-server
-
