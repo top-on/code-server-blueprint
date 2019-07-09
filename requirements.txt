@@ -1,5 +1,5 @@
 numpy
-# developlemt
+# development
 black
 jupyter
 pylint
