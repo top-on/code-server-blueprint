@@ -1,4 +1,8 @@
 {
+    // editor
+    "editor.minimap.enabled": false,
+    // python
     "python.dataScience.sendSelectionToInteractiveWindow": true,
-    "editor.minimap.enabled": false
+    "python.linting.enabled": true,
+    "python.pythonPath": "/usr/bin/python3.7",
 }
