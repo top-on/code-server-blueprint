@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  dev:
+    build: 
+      context: .
+    volumes:
+      - .:/root/app
+    ports:  
+      - 8080:8080
+    restart: unless-stopped
+    command: "code-server --auth none --bind-addr 0.0.0.0:8080"
