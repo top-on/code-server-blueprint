@@ -2,6 +2,7 @@
 
 Blueprint for using code-server for Python development.
 
+
 ## Getting started
 
 1. Start server: 
@@ -10,7 +11,8 @@ Blueprint for using code-server for Python development.
     docker-compose up dev
     ```
 
-2. Open browser (ideally Chrome-based) at ```http://localhost:8443/```
+2. Open browser (ideally Chrome-based) at ```http://localhost:8080/```
+
 
 ## Adapt this bluepeint
 
@@ -20,6 +22,7 @@ You have several options to adapt this blueprint:
 * Add Ubuntu dependencies to `Dockerfile`
 * Install more VSCode extensions at `Dockerfile`
 * Customize VSCode settings at `.vscode/settings.json`
+
 
 ## References
 

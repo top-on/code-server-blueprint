@@ -2,6 +2,5 @@
     // editor
     "editor.minimap.enabled": false,
     // python
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
-    "python.linting.enabled": true,
+    "workbench.colorTheme": "Visual Studio Dark"
 }
