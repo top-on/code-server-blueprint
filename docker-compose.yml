@@ -1,25 +1,10 @@
 version: '3'
 services:
 
-  ide:
+  dev:
     build: 
       context: .
     volumes:
       - .:/home/coder/project/code-server
-    ports:
-      - "127.0.0.1:8443:8443"
-
-  ide-proxy:
-    build: 
-      context: .
-      args:
-        - http_proxy=$HTTP_PROXY
-        - https_proxy=$HTTPS_PROXY
-    environment:
-      - http_proxy=$HTTP_PROXY
-      - https_proxy=$HTTPS_PROXY
-    volumes:
-      - .:/home/coder/project/code-server
-    user: "${UID}:${GID}"
     ports:
       - "127.0.0.1:8443:8443"
