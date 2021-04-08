@@ -2,5 +2,6 @@
     // editor
     "editor.minimap.enabled": false,
     // python
-    "workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorTheme": "Monokai",
+    "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/demo-cEwzT8cw-py3.8/bin/python"
 }
