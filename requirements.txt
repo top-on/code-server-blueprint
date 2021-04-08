@@ -1,5 +1,0 @@
-numpy
-# development
-black
-jupyter
-pylint
